@@ -1,0 +1,40 @@
+{
+    "name": "nameKey",
+    "description": "descriptionKey",
+    "author": "authorKey",
+    "icon": "assets/icon.png",
+
+    "uid": "uidKey",
+
+    "version": "versionKey",
+    "language": "languageKey",
+
+    "requirements": {
+        "game": {
+            "target-version": "1.0.0",
+            "minimum-version": "1.0.0"
+        },
+        "framework": {
+            "target-version": "1.0.0",
+            "minimum-version": "1.0.0"
+        }
+    },
+
+    "executionConfiguration": {
+        "entryPoint": "scripts/main.lua",
+        "showErrors": true
+    },
+
+    "metadata": {
+        "longDescription": "markup/description.md",
+        "changelog": "markup/changelog.md",
+        "repository": "github:user/repo",
+        "license": "example.com",
+        "social": {
+            "youtube": "youtubeKey",
+            "facebook": "facebookKey",
+            "instagram": "instagramKey",
+            "x": "xKey"
+        }
+    }
+}
