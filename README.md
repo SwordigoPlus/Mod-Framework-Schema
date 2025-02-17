@@ -21,6 +21,16 @@ If you prefer not using any tool mentioned above, you can **manually** download 
 You can check out the official documentation for more information about how to create installations, how to configure them properly and how to distribute them later.
 * [Documentation](https://docs.swordigoplus.cf)
 
+## Versioning
+The current & the latest versions for the **SwordigoPlus Mod Framework Schema** are:
+* **Stable: ( Current Branch, Recommended )**: 1.0.0
+* Beta: 1.0.0
+* Development: 1.0.0
+
+It is always recommended to run on the **stable** branch to avoid potential compatibility issues.
+
+Always make sure the `markupVersion` inside each `config.json` file matches with the latest version from the branch you're running to make sure you are running the latest & the newest recommended version and to avoid future compatibility issues.
+
 ## Contributions
 Community contributions are always welcome and are allowed. To learn more, please consult the `contributions.md` file for additional information.
 Contributions must follow our `community conduct` and must adhere to the **SwordigoPlus Terms of Service** and **Community Guidelines**.
