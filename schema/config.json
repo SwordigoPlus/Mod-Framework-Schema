@@ -1,10 +1,9 @@
 {
-    "name": "nameKey",
+    "name": "@user/name",
+    "displayName": "nameKey",
     "description": "descriptionKey",
     "author": "authorKey",
     "icon": "assets/icon.png",
-
-    "uid": "uidKey",
 
     "version": "versionKey",
     "language": "languageKey",
@@ -22,7 +21,8 @@
 
     "executionConfiguration": {
         "entryPoint": "scripts/main.lua",
-        "showErrors": true
+        "showErrors": true,
+        "environmentVariables": ["var1", "var2"]
     },
 
     "metadata": {
